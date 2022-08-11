@@ -16,12 +16,10 @@
 
 // 고차함수 사용하기
 function solution(s) {
-  let answer = [];
-  s.filter((i, idx, arr) => {
+  let answer;
+  answer = s.filter((i, idx, arr) => {
     // console.log(i, idx, arr.indexOf(i))
-    if(idx === arr.indexOf(i)) {
-      answer.push(i);
-    }
+    return idx === arr.indexOf(i);
   })
 
   return answer;
