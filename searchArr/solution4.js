@@ -1,4 +1,4 @@
-// 가위바위보
+// 채점하기
 function solution(a, b) {
   let answer = 0;
   let cnt = 0;

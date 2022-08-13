@@ -1,4 +1,4 @@
-// 가위바위보
+// 등수 구하기
 function solution(arr) {
   let answer = Array.from({length: arr.length}, () => 1);
 
